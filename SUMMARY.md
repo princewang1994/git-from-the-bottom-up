@@ -18,14 +18,16 @@
 
 * 迭代式Rebase
 
-## 2. The Index
+## 2. 索引（The Index）
 
 * 作为中间人的Index
 * 更深入理解Index
 
-## 3. Reset
+## 3. 重置（Reset）
 
-* Reset与否？是个问题
+* 重置与否？是个问题
+* 混合Reset
+* 软
 
 ## 4. Stashing and reflog
 

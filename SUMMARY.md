@@ -26,14 +26,17 @@
 ## 3. 重置（Reset）
 
 * 重置与否？是个问题
-* 混合Reset
-* 软
+* 混合重置
+* 软重置（Soft Reset）
+* 硬重置（Hard Reset）
 
-## 4. Stashing and reflog
+## 4. 暂存（Stashing）与 引用日志（reflog）
 
-## 5. Conclusion
+* 暂存（Stashing）与 引用日志（reflog）
 
-## 6. Further Reading
+## 5. 总结
+
+## 6. 延伸阅读
 
 
 

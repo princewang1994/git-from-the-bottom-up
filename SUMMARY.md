@@ -4,11 +4,11 @@
 
 * [Introduction](README.md)
 
-## 1.Repository
+## 1. Repository
 
-## 2.The Index
+## 2. The Index
 
-## 3.Reset
+## 3. Reset
 
 ## 4. Stashing and reflog
 

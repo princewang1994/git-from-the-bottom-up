@@ -25,6 +25,8 @@
 
 ## 3. Reset
 
+* Reset与否？是个问题
+
 ## 4. Stashing and reflog
 
 ## 5. Conclusion

@@ -2,7 +2,9 @@
 
 ## 1. Repository
 
-* # Repository: Directory content tracking
+* [Repository: 目录内容最终追踪](/repo/repository-directory-content-tracking)
+
+* Blob简介
 
 ## 2. The Index
 

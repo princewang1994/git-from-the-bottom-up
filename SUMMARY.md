@@ -10,6 +10,10 @@
 
 * Tree是如何生成的
 
+* 优美的提交（Commit）
+
+* Commit的别名
+
 ## 2. The Index
 
 ## 3. Reset

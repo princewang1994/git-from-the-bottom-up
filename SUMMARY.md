@@ -12,7 +12,11 @@
 
 * 优美的提交（Commit）
 
-* Commit的别名
+* Commit的其他表示方法
+
+* 分支与Rebase的力量
+
+* 迭代式Rebase
 
 ## 2. The Index
 

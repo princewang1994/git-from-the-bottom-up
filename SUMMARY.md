@@ -6,6 +6,10 @@
 
 * Blob简介
 
+* 存储在Tree中的blob
+
+* Tree是如何生成的
+
 ## 2. The Index
 
 ## 3. Reset

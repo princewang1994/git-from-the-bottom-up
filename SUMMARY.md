@@ -21,7 +21,8 @@
 ## 2. The Index
 
 * 作为中间人的Index
-* 
+* 更深入理解Index
+
 ## 3. Reset
 
 ## 4. Stashing and reflog

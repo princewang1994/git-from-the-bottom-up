@@ -48,6 +48,22 @@ Git是目前最流行的版本控制工具，从Git工具出发衍生出的软�
 
 ## 6. 延伸阅读
 
+衍生阅读
+
+## 联系我
+
+如有任何对本书的意见或建议，欢迎联系我！
+
+**E-mail**: princewang1994@gmail.com
+
+**个人主页:**
+
+http://blog.prince2015.club
+
+http://princewang1994.github.io
+
+
+
 
 
 

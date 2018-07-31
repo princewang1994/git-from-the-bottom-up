@@ -1,10 +1,10 @@
 # 自底向上理解Git（Git: From the Bottom UP）
 
+[TOC]
+
 原文地址：[https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)
 
 GitBook地址：[https://legacy.gitbook.com/book/princewang1994/git-from-the-bottom-up/details](https://legacy.gitbook.com/book/princewang1994/git-from-the-bottom-up/details)
-
-\[TOC\]
 
 ## Motivation
 

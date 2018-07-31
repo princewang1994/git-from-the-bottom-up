@@ -17,7 +17,7 @@ Git是目前最流行的版本控制工具，从Git工具出发衍生出的软�
 ## 1. Repository
 
 * [Introduction](/README.md)
-* [Repository: 目录内容最终追踪](/Repository/repository-directory-content-tracking.md)
+* [Repository: 目录内容追踪](/Repository/repository-directory-content-tracking.md)
 * Blob简介
 * 存储在Tree中的blob
 * Tree是如何生成的

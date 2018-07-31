@@ -58,13 +58,5 @@ Git是目前最流行的版本控制工具，从Git工具出发衍生出的软�
 
 **个人主页:**
 
-http://blog.prince2015.club
-
-http://princewang1994.github.io
-
-
-
-
-
-
+Prince的技术圈：[http://blog.prince2015.club](http://blog.prince2015.club) 或 [http://princewang1994.github.io](http://princewang1994.github.io)，欢迎访问
 

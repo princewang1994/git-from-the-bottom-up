@@ -2,7 +2,7 @@
 
 原文地址：[https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)
 
-本书GitBook地址：[https://legacy.gitbook.com/book/princewang1994/git-from-the-bottom-up/details](https://legacy.gitbook.com/book/princewang1994/git-from-the-bottom-up/details)
+GitBook地址：[https://legacy.gitbook.com/book/princewang1994/git-from-the-bottom-up/details](https://legacy.gitbook.com/book/princewang1994/git-from-the-bottom-up/details)
 
 \[TOC\]
 

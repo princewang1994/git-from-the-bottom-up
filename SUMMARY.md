@@ -3,7 +3,7 @@
 ## 1. Repository
 
 * [Introduction](/README.md)
-* [Repository: 目录内容最终追踪](/Repository/repository-directory-content-tracking.md)
+* [Repository: 目录内容的追踪](/Repository/repository-directory-content-tracking.md)
 * Blob简介
 * 存储在Tree中的blob
 * Tree是如何生成的

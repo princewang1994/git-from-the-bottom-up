@@ -2,20 +2,14 @@
 
 ## 1. Repository
 
-* [Repository: 目录内容最终追踪](/repo/repository-directory-content-tracking)
-
-* Blob简介
-
+* [Introduction](README.md)
+* [Repository: 目录内容最终追踪](repository-mu-lu-nei-rong-zui-zhong-zhui-zong.md)
+* [Blob简介](blobjian-jie.md)
 * 存储在Tree中的blob
-
 * Tree是如何生成的
-
 * 优美的提交（Commit）
-
 * Commit的其他表示方法
-
 * 分支与Rebase的力量
-
 * 迭代式Rebase
 
 ## 2. 索引（The Index）
@@ -39,6 +33,4 @@
 * 总结
 
 ## 6. 延伸阅读
-
-
 

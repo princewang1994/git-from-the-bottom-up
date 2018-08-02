@@ -8,15 +8,15 @@ GitBook地址：[https://legacy.gitbook.com/book/princewang1994/git-from-the-bot
 
 ## Motivation
 
-Git是目前最流行的版本控制工具，从Git工具出发衍生出的软件开发，集成环境不计其数，然而对许多新入门的同学而言，Git繁多的选项，复杂的命令，都给入门带来了一些困难。互联网上不乏Git的快速入门教程（如廖雪峰老师的博客），对于入门新手而言，在阅读完这些教程以后，完全可以完成一些Git的日常操作如Add，Commit，Push等操作，然而当更加复杂的命令，如Git的分支操作，暂存等等高级操作时，那些比较难懂的命令（如Reset和Rebase）就会带来不小的困难。在这个时候，从底层了解一些Git的设计思想和原理，能够帮助新人们快速了解Git的设计哲学，对于老手来说，也可以温故知新。本文是一篇非常好的Git原理性文章，通俗易懂，而且带有一些小例子，也是本人从入门Git以后提升的重要资料，在工作之余翻译，也纯属娱乐，希望能够帮助到一些刚入门的同学。本人英文水平有限，在措辞和整体翻译上可能还有一些偏差，希望各位看官们见谅。
+Git是目前最流行的版本控制工具，从Git工具出发衍生出的软件开发，集成环境不计其数，然而对许多新入门的同学而言，Git繁多的选项，复杂的命令，都给入门带来了一些困难。互联网上不乏Git的快速入门教程（如[廖雪峰老师的博客](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)），对于入门新手而言，在阅读完这些教程以后，完全可以完成一些Git的日常操作如Add，Commit，Push等操作，然而当更加复杂的命令，如Git的分支操作，暂存等等高级操作时，那些比较难懂的命令（如Reset和Rebase）就会带来不小的困难。在这个时候，从底层了解一些Git的设计思想和原理，能够帮助新人们快速了解Git的设计哲学，对于老手来说，也可以温故知新。本文是一篇非常好的Git原理性文章，通俗易懂，而且带有一些小例子，也是本人从入门Git以后提升的重要资料，在工作之余翻译，也纯属娱乐，希望能够帮助到一些刚入门的同学。本人英文水平有限，在措辞和整体翻译上可能还有一些偏差，希望各位看官们见谅。
 
-在此声明：本文的翻译出于个人学习，不包含任何商业目的，如有侵犯作者权益，立即删除
+版权声明：本文的翻译出于个人学习，不包含任何商业目的，如有侵犯作者权益，立即删除。
 
 ## Content
 
 ## 1. Repository
 
-* [Introduction](/README.md)
+* [Introduction](/Repository/introduction.md)
 * [Repository: 目录内容追踪](/Repository/repository-directory-content-tracking.md)
 * Blob简介
 * 存储在Tree中的blob
@@ -56,5 +56,5 @@ Git是目前最流行的版本控制工具，从Git工具出发衍生出的软�
 
 **E-mail**: princewang1994@gmail.com
 
-**个人主页——“**Prince的技术圈”：[http://blog.prince2015.club](http://blog.prince2015.club) 或 [http://princewang1994.github.io](http://princewang1994.github.io)，欢迎访问
+**个人主页**：[http://blog.prince2015.club](http://blog.prince2015.club) 或 [http://princewang1994.github.io](http://princewang1994.github.io)，欢迎访问
 

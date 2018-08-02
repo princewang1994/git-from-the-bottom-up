@@ -4,7 +4,7 @@
 
 * [Introduction](/Repository/introduction.md)
 * [Repository: 目录内容的追踪](/Repository/repository-directory-content-tracking.md)
-* Blob简介
+* [Blob简介](/Repository/introducing-the-blob.md)
 * 存储在Tree中的blob
 * Tree是如何生成的
 * 优美的提交（Commit）

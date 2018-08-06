@@ -14,9 +14,7 @@
 
 ​	本文的原文是John Jwiegley的Git From the Bottom Up，是一篇非常好的Git原理性文章，通俗易懂，而且带有一些小例子，也是本人从入门Git有所提升的重要资料，然而在网上没有找到非常完善的中文版（如果找到的同学可以联系我），于是萌生了翻译中文版的想法。希望在学习和工作之余翻译这篇博客，联系一些文档的写法，也重新温习Git的知识，当然也希望能够帮助到一些刚入门Git的同学。
 
-​	在翻译文法方面，由于本人英文水平有限，在措辞和整体翻译上可能难免有一些偏差，希望各位看官们见谅。整体上我会尽量直白的表达作者想表达的意思，但可能不会逐字逐句的直译，我更希望这篇文章能够在我的翻译下，能够有一些新的东西。
-
-后续我也会增加一些Git的其他衍生材料和本人的一些理解
+​	在翻译文法方面，由于本人英文水平有限，在措辞和整体翻译上可能难免有一些偏差，希望各位看官们见谅。整体上我会尽量直白的表达作者想表达的意思，但可能不会逐字逐句的直译，我更希望这篇文章能够在我的翻译下，能够有一些新的东西。后续我也会增加一些Git的其他衍生材料和本人的一些理解。
 
 **版权声明：本文的翻译出于个人学习，不包含任何商业目的，如有侵犯作者权益，立即删除。**
 
@@ -24,11 +22,11 @@
 
 ### 1. Repository
 
-* [Introduction](/Repository/introduction.md)
+* [引言](/Repository/introduction.md)
 * [Repository: 目录内容追踪](/Repository/repository-directory-content-tracking.md)
 * [Blob简介](/Repository/introducing-the-blob.md)
-* 存储在Tree中的blob
-* Tree是如何生成的
+* [存储在Tree中的blob](/Repository/blobs-are-stored-in-trees.md)
+* [Tree是如何生成的](/Repository/how-trees-are-made.md)
 * 优美的提交（Commit）
 * Commit的其他表示方法
 * 分支与Rebase的力量
@@ -56,7 +54,20 @@
 
 ### 6. 延伸阅读
 
-衍生阅读
+- [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+- [廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
+## 中英对照表
+
+
+
+## 更新日志
+
+- 2018.07.31: README.md初稿完成，Gitbook项目SUMMARY.md完成，项目基本结构搭建，后续准备补充
+- 2018.08.01: 完成Introduction翻译
+- 2018.08.02: 完成"Repository: 目录内容追踪"翻译
+- 2018.08.03: Blob简介初稿翻译
+- 2018.08.07: How trees are made上半篇翻译
 
 ## 联系我
 

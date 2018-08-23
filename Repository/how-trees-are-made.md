@@ -38,5 +38,36 @@ $ echo "Initial commit" | git commit-tree 0563f77
 5f1bc85745dcccce6121494fdd37658cb4ad441f
 ```
 
+`commit-tree`命令获取树这棵树的哈希id并生成一个Commit对象来保存它。如果想指定这个Commit的父节点，也可以使用`-p`选项显式指定父节点的的哈希码。 需要注意的是，如果读者也和我一起执行了上面的命令，可能会得到不同的哈希码：这是因为一个Commit不仅仅包含了其对应的树的哈希码，同时也包含了我的用户名和创建Commit的日期（译者注：其实在commit中也包含了commit message，即上面的“Initial commit”，但如果读者执行的是完全一样的命令，那么这部分是相同的，因此就只有用户名和日期是不同的）
+到此为止，我们的任务还没有结束，因为我还没有把刚生成的这个commit更新为当前的HEAD指针，我们可以用下面的命令来更新：
 
+```shell
+$ echo 5f1bc85745dcccce6121494fdd37658cb4ad441f > .git/refs/heads/master
+```
+
+这条命令将告诉Git，我们创建的分支名字叫做“master”，另外还有一条更加安全的命令——`update-ref`也可以完成同样的工作：
+
+```shell
+$ git update-ref refs/heads/master 5f1bc857
+```
+
+在我们创建了`master`分支以后，我们需要将他与当前的工作目录树相关联，一般来说，在用户每次执行检出分支（`git checkout`）的时候，Git就会将检出的分支对应的commit关联到我们当前的工作目录树上。
+
+```shell
+$ git symbolic-ref HEAD refs/heads/master
+```
+
+上面的命令将HEAD指针指向了`master`分支，这个操作非常重要，因为这意味着接下来我们创建的其他commit将会自动更新为新的`master`分支的引用值。
+
+难以置信的是一个完整的Commit创建过程是如此简单，但是确实如此，我们现在可以使用日志命令（`git log`）来查看刚才创建的这个提交了：
+
+```shell
+$ git log
+commit 5f1bc85745dcccce6121494fdd37658cb4ad441f
+Author: John Wiegley <johnw@newartisans.com>
+Date:   Mon Apr 14 11:14:58 2008 -0400
+        Initial commit
+```
+
+**笔者注**：如果我没有将`refs/heads/master`关联到刚创建的commit上，那么这个commit就会被Git认为是一个“不可达”的commit，因为没有任何对象引用了他，同时他也不是任何“可达”对象的父节点（通常我们可以通过一个可达的对象找到他的父节点，例如`HEAD^`，因此其父节点也是可达的）。当这种情况发生的时候，Git将会在某个时间点清理掉这些不可达的对象，当然包括他们所对应的树和相关的blob（用户可以通过执行`gc`命令来手动进行垃圾清理，但是一般很少人这么做）当你将`ref/heads`关联到某一个commit以后（就像我们上面做的一样），他就变成了一个可达的commit，这样，从这时候开始，这个commit将会被长时间的保存在我们的仓库中（除非你删除他或者将他变成一个不可达对象）。
 

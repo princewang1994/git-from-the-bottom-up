@@ -38,7 +38,7 @@ Git是目前最流行的版本控制工具，从Git工具出发衍生出的软�
 * [Blob简介](/Repository/introducing-the-blob.md)
 * [存储在Tree中的blob](/Repository/blobs-are-stored-in-trees.md)
 * [Tree是如何生成的](/Repository/how-trees-are-made.md)
-* 优美的提交（Commit）
+* [优美的提交（Commit）](/Repository/the-beauty-of-commits.md)
 * Commit的其他表示方法
 * 分支与Rebase的力量
 * 迭代式Rebase
